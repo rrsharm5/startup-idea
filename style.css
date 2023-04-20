@@ -1,0 +1,40 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) center center no-repeat fixed;
+  background-size: cover;
+}
+
+.new_but {
+  background-color: orange;
+  border-color: orange;
+  border-radius: 25px;
+}
+
+.container {
+  height: 100%;
+}
+
+h1{
+  font-size: 3em;
+  color: white;
+}
+.break { 
+height: 12em}
+
+hr{
+  border-color: darkorange;
+  border-width: 3px;
+  max-width: 50px;
+  margin: auto;
+  opacity: 1;
+}
+
+.new_but:hover {
+  border-width: 5px;
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  transition: 0.3s ease-in-out;
+}
